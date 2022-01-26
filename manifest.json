@@ -1,6 +1,6 @@
 {
     "name": "新宿区 電子マネーマップ",
-    "short_name": "電子マネーマップ",
+    "short_name": "電子マネー地図",
     "description": "D払い・PayPay・楽天Payの対応点を一括で調べられるアプリ",
     "icons": [
         {
@@ -9,7 +9,7 @@
             "type": "image/jpg"
         }
     ],
-    "start_url":"電子マネーMAP/index.html",
+    "start_url":"電子マネーMAP/index.php",
     "display":"fullscreen",
     "theme_color": "#dff0d8",
     "background_color": "#dff0d8"
