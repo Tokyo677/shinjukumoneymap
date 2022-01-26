@@ -27,10 +27,29 @@ tr,td {
     text-align:center;
     height:3em;
     width:23em;
+    border-radius:4px;
 }
 
 a {
     color:white;
+}
+
+footer {
+    background-color: white;
+    height: 3em;
+    width:100%;
+    position: fixed;
+    bottom: 0px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul,li {
+    color:black;
+    display: inline;
+    margin: 1em;
 }
 
 .adress {
@@ -55,6 +74,11 @@ header {
 h3 {
     font-weight: bold;
     font-size:1.1em;
+    font-family: '游ゴシック';
+}
+
+p {
+    font-family: '游ゴシック';
 }
 
 h2 {
