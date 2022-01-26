@@ -25,6 +25,6 @@
         ?>
         </table>
     </div>
-        <br><a href="index.html">トップページに戻る</a><br><br>
+        <br><a href="index.php">トップページに戻る</a><br><br>
     </body>
 </html>
