@@ -1,0 +1,12 @@
+{
+    "require": {
+      "php": "~8.0.3",　
+      "ext-mbstring": "*"
+    },
+
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+      }
+
+
+  }
