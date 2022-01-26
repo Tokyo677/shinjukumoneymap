@@ -13,7 +13,7 @@
         print('<form action="all.php" method="post" style="margin-bottom: 40px">');
         print('<input type="text" name="shopname" class="input">');
         print('</form><br>');
-        $file=fopen('all.csv','rb');
+        $file=fopen('all01.csv','rb');
         $Word=$_POST["shopname"];
         while($row=fgetcsv($file,1024,",")) {
             if(count(preg_grep('/'.$Word.'/', $row)) > 0){
