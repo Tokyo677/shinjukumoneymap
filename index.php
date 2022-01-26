@@ -15,5 +15,14 @@
         <button onclick="location.href='PayPay.php'" class="money">PayPay</button><br><br>
         <button onclick="location.href='Rakuten.php'" class="money">楽天Pay</button><br><br>
         <button onclick="location.href='map.html'" class="money">地図</button>
+        <footer>
+            <ul>
+                <a href="index.php"><li>トップ</li></a>
+                <a href="PayPay.php"><li>PayPay</li></a>
+                <a href="Rakuten.php"><li>楽天Pay</li></a>
+                <a href="iD.php"><li>iD</li></a>
+                <a href="map.html"><li>地図</li></a>
+            </ul>
+        </footer>
     </body>
 </html>
