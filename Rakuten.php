@@ -15,9 +15,8 @@
     <div align="center">
         <table>
         <?php
-        $file=fopen('Rakuten.csv','rb');
+        $file=fopen('Rakuten1.csv','rb');
         while($row=fgetcsv($file,1024,",")) {
-            mb_convert_variables("UTF-8", "SJIS", $row); 
                 print('<tr>');
                 print('<td><h3>'.$row[0].'</h3>'.'<p class="adress">'.$row[1].' , <font color=red>'.$row[2].'</font></p>'.'</td>');
                 print('</tr>');
