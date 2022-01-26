@@ -16,7 +16,7 @@
     <div align="center">
         <table>
         <?php
-        $file=fopen('iD.csv','rb');
+        $file=fopen('iD02.csv','rb');
         while($row=fgetcsv($file,1024,",")) {
                 print('<tr>');
                 print('<td><h3>'.$row[0].'</h3>'.'<p class="adress">'.$row[1].' , <font color=red>'.$row[2].'</font></p>'.'</td>');
