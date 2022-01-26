@@ -9,7 +9,7 @@
             "type": "image/jpg"
         }
     ],
-    "start_url":"電子マネーMAP/index.php",
+    "start_url":"https://shinjukumoneymap.herokuapp.com/index.php",
     "display":"fullscreen",
     "theme_color": "#dff0d8",
     "background_color": "#dff0d8"
