@@ -19,7 +19,7 @@
         <footer>
             <ul>
                  <a href="index.php"><li><img class="logo" src="pics/Home2.png"></li></a>
-                <a href="PayPay.php"><li><img class="logo" src="pics/PayPaylogo.png"></li></a>
+                <a href="PayPay.php"><li><img class="logo" src="pics/Paypaylogo.png"></li></a>
                 <a href="Rakuten.php"><li><img class="logo" src="pics/Rakutenlogo.png"></li></a>
                 <a href="iD.php"><li><img class="logo" src="pics/iDlogo.png"></li></a>
                 <a href="map.html"><li><img class="logo" src="pics/Map.png"></li></a>
