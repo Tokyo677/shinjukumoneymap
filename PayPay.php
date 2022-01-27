@@ -8,7 +8,7 @@
     </head>
     <body>
         <form action="PayPaySearch.php" method="post" style="margin-bottom: 40px">
-            <input type="text" name="shopname" class="input" placeholder="検索するテキストを入力">
+            <br><input type="text" name="shopname" class="input" placeholder="検索するテキストを入力"><br>
         </form>
         <h3 class="pagetitle">PayPay対応店 一覧</h3>
     <div align="center">
@@ -24,7 +24,7 @@
         ?>
         </table>
     </div>
-        <br><br>
+        <br><br><br>
                 <footer>
             <ul>
                 <a href="index.php"><li><img class="logo" src="pics/Home2.png"></li></a>
