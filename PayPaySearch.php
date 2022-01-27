@@ -12,7 +12,7 @@
         <?php
         print('<form action="PayPaySearch.php" method="post" style="margin-bottom: 40px">');
         print('<input type="text" name="shopname" class="input" placeholder="検索するテキストを入力">');
-        print('<h3>'.'PayPay対応店「'.$_POST["shopname"].'」の検索結果'.'</h3>');
+        print('<h3 class="pagetitle">'.'PayPay対応店「'.$_POST["shopname"].'」の検索結果'.'</h3>');
         print('</form><br>');
         $file=fopen('PayPay2.csv','rb');
         $Word=$_POST["shopname"];
@@ -27,7 +27,7 @@
         ?>
         </table>
     </div>
-        <br><a href="index.php">トップページに戻る</a><br><br>
+        <br><br>
         <footer>
             <ul>
                 <a href="index.php"><li><img class="logo" src="pics/Home2.png"></li></a>
