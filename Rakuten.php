@@ -7,11 +7,12 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
     </head>
     <body>
+        <br>
         <form action="RakutenSearch.php" method="post" style="margin-bottom: 40px">
             <input type="text" name="shopname" class="input" placeholder="検索するテキストを入力">
         </form>
     <div align="center">
-        <h3>楽天Pay対応店 一覧</h3>
+        <h3 class="pagetitle">楽天Pay対応店 一覧</h3>
         <table>
         <?php
         $file=fopen('Rakuten1.csv','rb');
@@ -24,7 +25,7 @@
         ?>
         </table>
     </div>
-        <br><a href="index.php">トップページに戻る</a><br><br>
+        <br><br>
         <footer>
             <ul>
                 <a href="index.php"><li><img class="logo" src="pics/Home2.png"></li></a>
