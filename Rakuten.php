@@ -7,13 +7,11 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
     </head>
     <body>
-        <header>
-            <h1>楽天Pay対応店 一覧</h1>
-        </header>
         <form action="RakutenSearch.php" method="post" style="margin-bottom: 40px">
-            <input type="text" name="shopname" class="input">
+            <input type="text" name="shopname" class="input" placeholder="検索するテキストを入力">
         </form>
     <div align="center">
+        <h3>楽天Pay対応店 一覧</h3>
         <table>
         <?php
         $file=fopen('Rakuten1.csv','rb');
@@ -29,11 +27,11 @@
         <br><a href="index.php">トップページに戻る</a><br><br>
         <footer>
             <ul>
-                <a href="index.php"><li>トップ</li></a>
-                <a href="PayPay.php"><li>PayPay</li></a>
-                <a href="Rakuten.php"><li>楽天Pay</li></a>
-                <a href="iD.php"><li>iD</li></a>
-                <a href="map.html"><li>地図</li></a>
+                <a href="index.php"><li><img class="logo" src="pics/Home2.png"></li></a>
+                <a href="PayPay.php"><li><img class="logo" src="pics/Paypaylogo.png"></li></a>
+                <a href="Rakuten.php"><li><img class="logo" src="pics/Rakutenlogo.png"></li></a>
+                <a href="iD.php"><li><img class="logo" src="pics/iDlogo.png"></li></a>
+                <a href="map.html"><li><img class="logo" src="pics/Map.png"></li></a>
             </ul>
         </footer>
     </body>
