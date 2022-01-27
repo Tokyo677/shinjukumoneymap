@@ -91,3 +91,9 @@ h2 {
     text-align: center;
     width:2.3em;
 }
+
+.pagetitle {
+    color:white;
+    font-family: '游ゴシック';
+    font-size:1.15em;
+}
