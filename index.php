@@ -5,6 +5,7 @@
         <title>電子マネーマップ</title>
         <link href="main.css" rel="stylesheet">
         <link rel="manifest" href="manifest.json">
+        <link rel="icon" type="image/jpg" href="/icon.jpg">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
     </head>
     <body>
