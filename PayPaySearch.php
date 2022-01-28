@@ -10,10 +10,10 @@
     <div align="center">
         <table>
         <?php
-        print('<form action="PayPaySearch.php" method="post" style="margin-bottom: 40px">');
+        print('<br><form action="PayPaySearch.php" method="post" style="margin-bottom: 40px">');
         print('<input type="text" name="shopname" class="input" placeholder="検索するテキストを入力">');
-        print('<h3 class="pagetitle">'.'PayPay対応店「'.$_POST["shopname"].'」の検索結果'.'</h3>');
-        print('</form><br>');
+        print('<br><h3 class="pagetitle">'.'PayPay対応店「'.$_POST["shopname"].'」の検索結果'.'</h3>');
+        print('</form>');
         $file=fopen('PayPay2.csv','rb');
         $Word=$_POST["shopname"];
         while($row=fgetcsv($file,1024,",")) {
@@ -27,7 +27,7 @@
         ?>
         </table>
     </div>
-        <br><br>
+        <br><br><br>
         <footer>
             <ul>
                 <a href="index.php"><li><img class="logo" src="pics/Home2.png"></li></a>
