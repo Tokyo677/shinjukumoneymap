@@ -97,3 +97,36 @@ h2 {
     font-family: '游ゴシック';
     font-size:1.15em;
 }
+
+.Rbox {
+    background-color:#FF00FF;
+    display: inline-block;
+    width: 2em;
+    height:2em;
+}
+
+.Pbox {
+    background-color:blue;
+    display: inline-block;
+    width: 2em;
+    height:2em;
+}
+
+.Ibox {
+    background-color:yellow;
+    display: inline-block;
+    width: 2em;
+    height:2em;
+}
+
+.box {
+    display: inline-block;
+    color: black;
+}
+
+.lay {
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
