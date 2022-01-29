@@ -5,6 +5,8 @@
         <link href="main.css" rel="stylesheet">
         <title>全種類で検索｜電子マネーMAP</title>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" type="image/jpg" href="icon.jpg">
+        <link rel="apple-touch-icon" href="icon.jpg">
     </head>
     <body>
     <div align="center">
@@ -13,7 +15,7 @@
         print('<br><form action="all.php" method="post" style="margin-bottom: 40px"><br>');
         print('<input type="text" name="shopname" class="input" placeholder="店舗名/住所で検索">');
         print('</form>');
-        print('<br><h3 class="pagetitle">'.'「'.$_POST["shopname"].'」の検索結果'.'</h3>');
+        print('<br><br><h3 class="pagetitle">'.'「'.$_POST["shopname"].'」の検索結果'.'</h3>');
         $file=fopen('all01.csv','rb');
         $Word=$_POST["shopname"];
         while($row=fgetcsv($file,1024,",")) {
@@ -27,7 +29,7 @@
         ?>
         </table>
     </div>
-        <br><br>
+        <br><br><br>
         <footer>
             <ul>
                 <a href="index.php"><li><img class="logo" src="pics/Home2.png"></li></a>
