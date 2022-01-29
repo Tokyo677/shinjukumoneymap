@@ -9,13 +9,13 @@
         <link rel="apple-touch-icon" href="icon.jpg">
     </head>
     <body>
+        <br><form action="RakutenSearch.php" method="post" style="margin-bottom: 40px">
+        <input type="text" name="shopname" class="input" placeholder="店舗名/住所で検索">
+        </form>
     <div align="center">
         <table>
         <?php
-        print('<br><form action="all.php" method="post" style="margin-bottom: 40px"><br>');
-        print('<input type="text" name="shopname" class="input" placeholder="店舗名/住所で検索">');
-        print('</form>');
-        print('<br><br><h3 class="pagetitle">'.'「'.$_POST["shopname"].'」の検索結果'.'</h3>');
+        print('<h3 class="pagetitle">'.'「'.$_POST["shopname"].'」の検索結果'.'</h3>');
         $file=fopen('all01.csv','rb');
         $Word=$_POST["shopname"];
         while($row=fgetcsv($file,1024,",")) {
