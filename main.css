@@ -131,3 +131,7 @@ h2 {
     top: 20px;
     right: 3%;
 }
+
+.now {
+    border-bottom: solid 1px black;
+}
