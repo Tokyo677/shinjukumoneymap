@@ -12,10 +12,10 @@
     <div align="center">
         <table>
         <?php
-        print('<form action="RakutenSearch.php" method="post" style="margin-bottom: 40px">');
+        print('<br><form action="RakutenSearch.php" method="post" style="margin-bottom: 40px">');
         print('<input type="text" name="shopname" class="input" placeholder="店舗名/住所で検索">');
-        print('</form><br>');
-        print('<h3 class="pagetitle">'.'楽天Pay対応店「'.$_POST["shopname"].'」の検索結果'.'</h3><br>');
+        print('</form>');
+        print('<h3 class="pagetitle">'.'楽天Pay対応店「'.$_POST["shopname"].'」の検索結果'.'</h3>');
         $file=fopen('Rakuten1.csv','rb');
         $Word=$_POST["shopname"];
         while($row=fgetcsv($file,1024,",")) {
