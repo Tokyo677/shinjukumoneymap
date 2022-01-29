@@ -5,11 +5,13 @@
         <link href="main.css" rel="stylesheet">
         <title>iD対応店｜電子マネーMAP</title>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" type="image/jpg" href="icon.jpg">
+        <link rel="apple-touch-icon" href="icon.jpg">
     </head>
     <body>
         <br>
         <form action="iDSearch.php" method="post" style="margin-bottom: 40px">
-            <input type="text" name="shopname" class="input" placeholder="検索するテキストを入力">
+            <input type="text" name="shopname" class="input" placeholder="店舗名/住所で検索">
         </form>
     <div align="center">
          <h3 class="pagetitle">iD対応店 一覧</h3>
@@ -25,7 +27,7 @@
         ?>
         </table>
     </div>
-        <br><br>
+        <br><br><br>
         <footer>
             <ul>
                 <a href="index.php"><li><img class="logo" src="pics/Home2.png"></li></a>
