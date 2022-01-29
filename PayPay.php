@@ -5,10 +5,12 @@
         <link href="main.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>PayPay対応店｜電子マネーMAP</title>
+        <link rel="icon" type="image/jpg" href="icon.jpg">
+        <link rel="apple-touch-icon" href="icon.jpg">
     </head>
     <body>
         <form action="PayPaySearch.php" method="post" style="margin-bottom: 40px">
-            <br><input type="text" name="shopname" class="input" placeholder="検索するテキストを入力"><br>
+            <br><input type="text" name="shopname" class="input" placeholder="店舗名/住所で検索"><br>
         </form>
         <h3 class="pagetitle">PayPay対応店 一覧</h3>
     <div align="center">
