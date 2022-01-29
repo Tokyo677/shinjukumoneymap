@@ -12,10 +12,10 @@
         <table>
         <?php
         print('<form action="iDSearch.php" method="post" style="margin-bottom: 40px">');
-        print('<input type="text" name="shopname" class="input" placeholder="検索するテキストを入力">');
+        print('<input type="text" name="shopname" class="input" placeholder="店舗名/住所で検索">');
         print('</form><br>');
         print('<h3 class="pagetitle">'.'iD対応店「'.$_POST["shopname"].'」の検索結果'.'</h3>');
-        $file=fopen('iD.csv','rb');
+        $file=fopen('iD02.csv','rb');
         $Word=$_POST["shopname"];
         while($row=fgetcsv($file,1024,",")) {
             if(count(preg_grep('/'.$Word.'/', $row)) > 0){
@@ -28,7 +28,7 @@
         ?>
         </table>
     </div>
-        <br><br>
+        <br><br><br>
         <footer>
             <ul>
                 <a href="index.php"><li><img class="logo" src="pics/Home2.png"></li></a>
