@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <link href="main.css" rel="stylesheet">
         <title>iD対応店｜電子マネーMAP</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
         <link rel="icon" type="image/jpg" href="icon.jpg">
         <link rel="apple-touch-icon" href="icon.jpg">
     </head>
