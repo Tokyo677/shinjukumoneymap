@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <link href="main.css" rel="stylesheet">
         <title>楽天Pay対応店｜電子マネーMAP</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
     </head>
     <body>
         <br>
@@ -30,7 +30,7 @@
             <ul>
                 <a href="index.php"><li><img class="logo" src="pics/Home2.png"></li></a>
                 <a href="PayPay.php"><li><img class="logo" src="pics/Paypaylogo.png"></li></a>
-                <a href="Rakuten.php"><li><img class="logo" src="pics/Rakutenlogo.png"></li></a>
+                <a class="now" href="Rakuten.php"><li><img class="logo" src="pics/Rakutenlogo.png"></li></a>
                 <a href="iD.php"><li><img class="logo" src="pics/iDlogo.png"></li></a>
                 <a href="map.html"><li><img class="logo" src="pics/Map.png"></li></a>
             </ul>
