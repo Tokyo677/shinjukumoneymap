@@ -14,7 +14,7 @@
         </form>
     <div align="center">
         <?php
-        print('<br><h3 class="pagetitle">'.'楽天Pay対応店「'.$_POST["shopname"].'」の検索結果'.'</h3>');
+        print('<h3 class="pagetitle">'.'楽天Pay対応店「'.$_POST["shopname"].'」の検索結果'.'</h3>');
         print('<table>');
         $file=fopen('Rakuten1.csv','rb');
         $Word=$_POST["shopname"];
