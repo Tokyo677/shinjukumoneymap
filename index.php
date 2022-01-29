@@ -7,7 +7,7 @@
         <link rel="manifest" href="manifest.json">
         <link rel="icon" type="image/jpg" href="icon.jpg">
         <link rel="apple-touch-icon" href="icon.jpg">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
     </head>
     <body>
         <br>
