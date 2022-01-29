@@ -9,7 +9,7 @@
     <body>
         <br>
         <form action="RakutenSearch.php" method="post" style="margin-bottom: 40px">
-            <input type="text" name="shopname" class="input" placeholder="検索するテキストを入力">
+            <input type="text" name="shopname" class="input" placeholder="店舗名/住所で検索">
         </form>
     <div align="center">
         <h3 class="pagetitle">楽天Pay対応店 一覧</h3>
@@ -25,7 +25,7 @@
         ?>
         </table>
     </div>
-        <br><br>
+        <br><br><br>
         <footer>
             <ul>
                 <a href="index.php"><li><img class="logo" src="pics/Home2.png"></li></a>
