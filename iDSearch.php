@@ -9,13 +9,12 @@
         <link rel="apple-touch-icon" href="icon.jpg">
     </head>
     <body>
-        <br>
+        <br><form action="RakutenSearch.php" method="post" style="margin-bottom: 40px">
+        <input type="text" name="shopname" class="input" placeholder="店舗名/住所で検索">
+        </form>
     <div align="center">
         <table>
         <?php
-        print('<form action="iDSearch.php" method="post" style="margin-bottom: 40px">');
-        print('<input type="text" name="shopname" class="input" placeholder="店舗名/住所で検索">');
-        print('</form><br>');
         print('<h3 class="pagetitle">'.'iD対応店「'.$_POST["shopname"].'」の検索結果'.'</h3>');
         $file=fopen('iD02.csv','rb');
         $Word=$_POST["shopname"];
