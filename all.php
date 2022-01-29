@@ -11,8 +11,8 @@
         <table>
         <?php
         print('<br><form action="all.php" method="post" style="margin-bottom: 40px"><br>');
-        print('<h3>'.'「'.$_POST["shopname"].'」の検索結果'.'</h3>');
         print('<input type="text" name="shopname" class="input">');
+        print('<h3 class="pagetitle">'.'「'.$_POST["shopname"].'」の検索結果'.'</h3>');
         print('</form><br>');
         $file=fopen('all01.csv','rb');
         $Word=$_POST["shopname"];
