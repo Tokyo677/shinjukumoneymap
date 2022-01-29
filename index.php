@@ -12,7 +12,7 @@
     <body>
         <br>
         <form action="all.php" method="post" style="margin-bottom: 40px">
-            <input type="text" name="shopname" class="input" placeholder="検索するテキストを入力">
+            <input type="text" name="shopname" class="input" placeholder="店舗名/住所で検索">
         </form>
         <button onclick="location.href='iD.php'" class="money">iD</button><br><br>
         <button onclick="location.href='PayPay.php'" class="money">PayPay</button><br><br>
