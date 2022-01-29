@@ -10,8 +10,8 @@
     <div align="center">
         <table>
         <?php
-         print('<header>'.'<h1>'.'「'.$_POST["shopname"].'」の検索結果'.'</h1>');
-        print('<form action="all.php" method="post" style="margin-bottom: 40px">');
+        print('<br><form action="all.php" method="post" style="margin-bottom: 40px"><br>');
+        print('<h3>'.'「'.$_POST["shopname"].'」の検索結果'.'</h3>');
         print('<input type="text" name="shopname" class="input">');
         print('</form><br>');
         $file=fopen('all01.csv','rb');
@@ -27,14 +27,14 @@
         ?>
         </table>
     </div>
-        <br><a href="index.php">トップページに戻る</a><br><br>
+        <br><br>
         <footer>
             <ul>
-                <a href="index.php"><li>トップ</li></a>
-                <a href="PayPay.php"><li>PayPay</li></a>
-                <a href="Rakuten.php"><li>楽天Pay</li></a>
-                <a href="iD.php"><li>iD</li></a>
-                <a href="map.html"><li>地図</li></a>
+                <a href="index.php"><li><img class="logo" src="pics/Home2.png"></li></a>
+                <a href="PayPay.php"><li><img class="logo" src="pics/Paypaylogo.png"></li></a>
+                <a href="Rakuten.php"><li><img class="logo" src="pics/Rakutenlogo.png"></li></a>
+                <a href="iD.php"><li><img class="logo" src="pics/iDlogo.png"></li></a>
+                <a href="map.html"><li><img class="logo" src="pics/Map.png"></li></a>
             </ul>
         </footer>
     </body>
