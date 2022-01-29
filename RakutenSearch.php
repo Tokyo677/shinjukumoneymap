@@ -9,11 +9,11 @@
         <link rel="apple-touch-icon" href="icon.jpg">
     </head>
     <body>
+        <br><form action="RakutenSearch.php" method="post" style="margin-bottom: 40px">
+        <input type="text" name="shopname" class="input" placeholder="店舗名/住所で検索">
+        </form>
     <div align="center">
         <?php
-        print('<br><form action="RakutenSearch.php" method="post" style="margin-bottom: 40px">');
-        print('<input type="text" name="shopname" class="input" placeholder="店舗名/住所で検索">');
-        print('</form>');
         print('<br><h3 class="pagetitle">'.'楽天Pay対応店「'.$_POST["shopname"].'」の検索結果'.'</h3>');
         print('<table>');
         $file=fopen('Rakuten1.csv','rb');
