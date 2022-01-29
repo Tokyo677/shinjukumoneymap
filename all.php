@@ -11,9 +11,9 @@
         <table>
         <?php
         print('<br><form action="all.php" method="post" style="margin-bottom: 40px"><br>');
-        print('<input type="text" name="shopname" class="input">');
-        print('<h3 class="pagetitle">'.'「'.$_POST["shopname"].'」の検索結果'.'</h3>');
+        print('<input type="text" name="shopname" class="input" placeholder="店舗名/住所で検索">');
         print('</form>');
+        print('<br><h3 class="pagetitle">'.'「'.$_POST["shopname"].'」の検索結果'.'</h3>');
         $file=fopen('all01.csv','rb');
         $Word=$_POST["shopname"];
         while($row=fgetcsv($file,1024,",")) {
