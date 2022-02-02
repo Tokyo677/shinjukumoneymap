@@ -9,6 +9,12 @@ body {
     height: 4em;
     border-radius:4px;
     font-size:12.7px;
+    background-color: #333333;
+    color: white;
+}
+
+::placeholder {
+    color: white;
 }
 
 .money {
@@ -19,14 +25,14 @@ body {
 
 table{
     display: flex;
-    color:black;
+    color:white;
     border-collapse: separate;
     border-spacing: 10px;
     display: table-cell;
 }
 
 tr,td {
-    background-color: white;
+    background-color: #333333;
     text-align:center;
     height:3em;
     width:23em;
@@ -38,7 +44,7 @@ a {
 }
 
 footer {
-    background-color: white;
+    background-color: #1a1a1a;
     height: 3.5em;
     width:100%;
     position: fixed;
@@ -47,6 +53,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 1px solid #666666;
 }
 
 ul,li {
@@ -57,7 +64,7 @@ ul,li {
 
 .adress {
     font-size:0.8em;
-    color:#666666;
+    color:white;
 }
 
 header {
